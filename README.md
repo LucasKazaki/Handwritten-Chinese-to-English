@@ -10,3 +10,6 @@ Download all files as well as the file above. If you have a supported version of
 
 # Known Issues
 When the input image is bigger than the input for the model, the whole thing doesn't work. Resizing the image while maintaining the image has proved difficult. When testing, use images smaller than 96 x 2000 to circumvent the issue.
+
+# Sources
+Openvino was a huge source, as the Handwritten Chinese and Japanese OCR model was used. The tutorial that I followed is linked here: https://github.com/openvinotoolkit/openvino_notebooks/tree/main/notebooks/209-handwritten-ocr
