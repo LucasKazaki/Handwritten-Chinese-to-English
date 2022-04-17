@@ -8,5 +8,5 @@ Check to see if Openvino is compatable with your version of Python using the gui
 # HOW TO USE
 Download all files as well as the file above. If you have a supported version of Python, type ```python HCTE.py``` into your command prompt. If you do not have a supported version of Python, try ```py -3.9 HCTE.py```. 
 
-**Known Issues**
-When the input image is bigger than the input for the model, the whole thing doesn't work. Resizing the image while maintaining the image has proved difficult.
+# Known Issues
+When the input image is bigger than the input for the model, the whole thing doesn't work. Resizing the image while maintaining the image has proved difficult. When testing, use images smaller than 96 x 2000 to circumvent the issue.
