@@ -9,7 +9,7 @@ Check to see if Openvino is compatable with your version of Python using the gui
 Download all files as well as the file above. If you have a supported version of Python, type ```python HCTE.py``` into your command prompt. If you do not have a supported version of Python, try ```py -3.9 HCTE.py```. 
 
 # Known Issues
-When the input image is bigger than the input for the model, the whole thing doesn't work. Resizing the image while maintaining the image has proved difficult. When testing, use images smaller than 96 x 2000 to circumvent the issue.
+When the input image is bigger than the input for the model, the whole thing doesn't work. Resizing the image while maintaining the image has proved difficult. When testing, use images smaller than 96 x 2000 to circumvent the issue. (Fixed)
 
 # Sources
 Openvino was a huge source, as the Handwritten Chinese and Japanese OCR model was used. The tutorial that I followed is linked here: https://github.com/openvinotoolkit/openvino_notebooks/tree/main/notebooks/209-handwritten-ocr
