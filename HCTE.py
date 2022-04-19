@@ -103,8 +103,7 @@ def imageToText():
         resized_width = W - resized_image.shape[1]
         resized_image = np.pad(resized_image, ((0, 0), (int(resized_height), int(resized_width))), mode="edge")
     else:
-        image = image.resize((int(image_height * (H / image_height)), int(image_width * (W / image_width))))
-        resized_image = image
+        resized_image = cv2.resize(image, (int(image_width * (W / image_width)), int(image_height * (H / image_height))))
     # Reshape to network the input shape
     input_image = resized_image[None, None, :, :]
     plt.figure(figsize=(20, 1))
